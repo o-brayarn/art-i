@@ -92,4 +92,21 @@ a {
     transform: scale(1);
   }
 }
+
+/* Add media queries */
+@media screen and (max-width: 700px) {
+  .section__padding {
+    padding: 4rem;
+  }
+  .section__margin {
+    padding: 4rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+  .section__margin {
+    padding: 4rem 2rem;
+  }
 }
