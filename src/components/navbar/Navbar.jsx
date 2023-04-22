@@ -1,5 +1,6 @@
 import React from 'react'
-import {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
+import logo from '../../assets/'
 import './navbar.css'
 
 // We use BEM (Block Element Modifier) for our classNames)
