@@ -29,7 +29,7 @@
   align-items: center;
 }
 .ai__navbar-links_container p,
-.ai__navbar-sign,
+.ai__navbar-sign p,
 .ai__navbar-menu_container p {
   color: #fff;
   font-family: var(--font-family);
@@ -39,5 +39,22 @@
   text-transform: capitalize;
 
   margin: 0 1rem;
+  cursor: pointer;
+}
+.ai__navbar-sign button,
+.ai__navbar-menu_container button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  left: 1153px;
+  top: 55px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+
+  background: #ff4820;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
   cursor: pointer;
 }
