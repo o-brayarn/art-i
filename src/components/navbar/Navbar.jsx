@@ -19,6 +19,10 @@ const Navbar = () => {
           <p> <a href="#blog">Library</a></p>
         </div>
       </div>
+      <div className='ai__navbar-sign'>
+        <p>Sign In</p>
+        <button type='button'>SignUp</button>
+      </div>
     </div>
   )
 }
