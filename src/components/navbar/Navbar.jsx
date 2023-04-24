@@ -5,15 +5,14 @@ import logo from '../../assets/logo.svg'
 import './navbar.css'
 
 // We use BEM (Block Element Modifier) for our classNames)
-const Menu = () => {
+const Menu = () => (
   <>
-   <p> <a href="#home">Home</a></p>
-          <p> <a href="#wai">What is Art-I</a> </p>
-          <p> <a href="#possibility">Artack</a></p>
-          <p> <a href="#features">Case Studies</a></p>
-          <p> <a href="#blog">Library</a></p>
-  </>
-}
+    <p> <a href="#home">Home</a></p>
+    <p> <a href="#wai">What is Art-I</a> </p>
+    <p> <a href="#possibility">Artack</a></p>
+    <p> <a href="#features">Case Studies</a></p>
+    <p> <a href="#blog">Library</a></p>
+  </>)
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
   return (
