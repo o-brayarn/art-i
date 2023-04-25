@@ -7,6 +7,11 @@ const Header = () => {
       <div className='ai__header-content'>
         <h1 className='gradient__text'>Welcome to Art-I. We make art worth your while.</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque consequuntur nesciunt deserunt ad maiores dolores illum at corporis atque non? Velit pariatur libero aliquam perferendis? Suscipit ad ullam enim quod?</p>
+        <div className='ai__header-content__input'>
+          <input type='email' placeholder='Your email address' />
+          <button type='button'>Get Started</button>
+        </div>
+
     </div>
   )
 }
