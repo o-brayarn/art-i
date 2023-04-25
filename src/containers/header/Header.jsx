@@ -18,11 +18,10 @@ const Header = () => {
           <img src={people} alt="people" />
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-
-        <div className='ai__header-image'>
+      </div>
+       <div className='ai__header-image'>
           <img src={ai} alt="ai" />
         </div>
-      </div>
     </div>
   )
 }
