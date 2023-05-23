@@ -3,8 +3,8 @@ import './whatArtI.css'
 
 const WhatArtI = () => {
   return (
-    <div>
-      <h1>WhatArtI</h1>
+    <div className='ai__whatai section__margin' id='wai'>
+      <div className="ai__whatai-feature"></div>
     </div>
   )
 }
