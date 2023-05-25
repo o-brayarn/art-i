@@ -39,4 +39,20 @@
   line-height: 24px;
   color: var(--color-text);
 }
- 
+
+/* Add media queries */
+@media screen and (max-width: 550px) {
+  .ai__features-container__feature-title h1 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .ai__features-container__feature-text p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .ai__features-container__feature {
+    margin: 1rem 0;
+  }
+}
