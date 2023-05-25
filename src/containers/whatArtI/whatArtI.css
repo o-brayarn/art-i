@@ -47,6 +47,7 @@
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 .ai__whatai-feature {
   display: flex;
 }
@@ -86,36 +87,47 @@
   margin-top: 2rem;
 }
 
+.ai__whatai-container .ai__features-container__feature {
+  flex: 1;
+  margin: 1rem;
+  min-width: 210px;
+  display: unset;
+  flex-direction: column;
+}
+
+.ai__whatai-container .ai__features-container__feature-text {
+  margin-top: 0.5rem;
+}
 /* Media Queries */
 @media screen and (max-width: 850px) {
-  .gpt3__whatgpt3-heading {
+  .ai__whatai-heading {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 0rem;
   }
 
-  .gpt3__whatgpt3-heading p {
+  .ai__whatai-heading p {
     margin-top: 1rem;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .gpt3__whatgpt3-feature .gpt3__features-container__feature {
+  .ai__whatai-feature .ai__features-container__feature {
     flex-direction: column;
   }
 
-  .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+  .ai__whatai-feature .ai__features-container_feature-text {
     margin-top: 0.5rem;
   }
 
-  .gpt3__whatgpt3-heading h1 {
+  .ai__whatai-heading h1 {
     font-size: 28px;
     line-height: 40px;
   }
 }
 
 @media screen and (max-width: 350px) {
-  .gpt3__whatgpt3-container .gpt3__features-container__feature {
+  .ai__whatai-container .ai__features-container__feature {
     margin: 1rem 0;
     min-width: 100%;
   }
