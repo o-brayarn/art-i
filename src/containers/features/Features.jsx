@@ -4,7 +4,7 @@ import {Feature} from "../../components"
 
 const featuresData = [
   {
-    title: "Lorem Ipsum",
+    title: "Lorem Ipsum ibsum ipsjkf",
     text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, quas."
   },
   {
