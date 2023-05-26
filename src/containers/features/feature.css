@@ -38,3 +38,19 @@
   align-items: center;
   flex-direction: column;
 }
+
+/* Add media queries */
+@media screen and (max-width: 990px) {
+  .ai__features {
+    flex-direction: column;
+  }
+  .ai__features-heading {
+    margin: 0 0 2em 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .ai__features-heading h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
