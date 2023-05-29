@@ -15,20 +15,22 @@
 }
 
 .ai__navbar-links_logo {
+  display: flex;
   margin-right: 2rem;
+  padding: auto;
 }
 .ai__navbar-links_logo h1 {
   color: #fff;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: -0.04em;
 
   margin-bottom: 1rem;
+  text-align: center;
 }
 .ai__navbar-links_logo h1 span {
   border: 3px solid #fff;
   border-radius: 10px;
-  padding: 0 12px;
-  text-align: center;
+  padding: 0 10px;
 }
 
 .ai__navbar-links_logo img {
@@ -144,5 +146,17 @@
 
   .ai__navbar-menu_container-links-sign {
     display: block;
+  }
+}
+@media screen and (max-width: 300px) {
+  .ai__navbar-links_logo {
+    margin-right: 0;
+  }
+  .ai__navbar-links_logo h1 {
+    font-size: 20px;
+    border: none;
+  }
+  .ai__navbar-links_logo h1 span {
+    border-radius: 8px;
   }
 }
